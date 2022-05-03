@@ -1,0 +1,27 @@
+[Info]
+Version=ASM Visual Project File, Format Version 1.0.2
+[Project]
+nameProject=prog5
+compiler=masm
+bit=32
+pathSourceDir=Sources
+pathResourceDir=Resources
+nameStartUp=prog5.asm
+nameCompiler=ml
+nameLinker=link
+nameResourceCompiler=rc
+target=exe
+warningsAsErrors=False
+communicateCLD=
+communicateRunRelease=
+compilerParameters=/c /coff /Cp /Zi
+compilerON=True
+linkerParameters=/SUBSYSTEM:CONSOLE /DEBUG
+linkerON=True
+resourceCompilerParameters=
+resourceCompilerON=False
+filesCompilerWOStructure=False
+sourcesFiles={prog5.asm}
+resourcesFiles={prog5.rc}
+sourcesDirs={}
+resourcesDirs={}
